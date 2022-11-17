@@ -8,11 +8,21 @@ body {
 
 /* SITE-HEADER */
 .site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #fff;
+}
+
+.site-header-actions {
+  display: flex;
+  align-items: center;
+
 }
 
 /* SITENAV */
 .sitenav-list {
+  display: flex;
   list-style: none;
 }
 
@@ -39,6 +49,9 @@ body {
 
 /* HERO */
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -62,6 +75,12 @@ body {
 .hero-img {
   width: 510px;
   height: 510px;
+}
+
+.features-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 
 /* FEATURE */
@@ -92,6 +111,9 @@ body {
 
 /* PROMO */
 .promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -124,8 +146,19 @@ body {
   background-color: #F8F8F8;
 }
 
+.site-footer-top {
+  display: flex;
+  align-items: center;
+}
+
 .site-footer ul {
   list-style: none;
+}
+
+.site-footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-footer-divider {
@@ -136,6 +169,11 @@ body {
 .site-footer-links {
   width: 224px;
   line-height: 19px;
+}
+
+.site-footer-bottom {
+  display: flex;
+
 }
 
 .site-footer-links a {
