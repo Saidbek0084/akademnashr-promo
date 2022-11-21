@@ -81,6 +81,7 @@ body {
 .main-link {
   display: inline-block;
   padding: 12px 24px;
+  margin-top: 36px;
   border-radius: 4px;
   font-size: 13px;
   line-height: 15px;
@@ -118,7 +119,7 @@ body {
 .orange-line {
   width: 80px;
   height: 3px;
-  border: none;
+  border: 0;
   margin: 0;
   margin-bottom: 40px;
   background-color: #ff7500;
@@ -134,7 +135,7 @@ body {
 
 .hero-text {
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
 }
 
 .hero-img {
@@ -249,6 +250,7 @@ body {
 
 .site-footer-top {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -273,6 +275,7 @@ body {
 }
 
 .site-footer-socials a {
+  display: block;
   color: #252420;
 }
 
@@ -282,6 +285,10 @@ body {
 
 .site-footer-socials a:active {
   opacity: 0.6;
+}
+
+.site-footer-socials svg {
+  display: block;
 }
 
 .site-footer-divider {
